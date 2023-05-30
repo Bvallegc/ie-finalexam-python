@@ -5,7 +5,7 @@ on:
     branches:
       - dev
   schedule:
-    - cron: '0 23 * * *'  # Run every night at 11 PM
+    - cron: '0 6 * * *'
 
 jobs:
   test:
